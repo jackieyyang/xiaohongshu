@@ -1,0 +1,30 @@
+@import './base.css';
+@import 'tailwindcss';
+
+#app {
+  width: 375px;
+  height: 730px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #fff;
+  box-sizing: content-box;
+  border-radius: 8px;
+}
+
+#app main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#app footer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px 16px;
+}
